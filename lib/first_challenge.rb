@@ -14,9 +14,11 @@ def first_challenge
   }
 
   contact.each {|key,val| 
-  
-    if val == strawberry
-      key
+    
+    
+    if key == favorite_icecream_flavors:
+    
+      key.delete_if {|val| val == strawberry
     
   }
 
