@@ -13,9 +13,9 @@ def first_challenge
     }
   }
 
-  contact.each {|key,val| 
-    
-    
+  contact.each {|person, info| 
+  
+    info.each {|attribute, value| 
     if key == favorite_icecream_flavors:
     
       key.delete_if {|val| val == strawberry
