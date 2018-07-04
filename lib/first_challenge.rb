@@ -14,6 +14,10 @@ def first_challenge
   }
 
   contact.each {|key,val| 
+  
+    if val == strawberry
+      key
+    
   }
 
 
