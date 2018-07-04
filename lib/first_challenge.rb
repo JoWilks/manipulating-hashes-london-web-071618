@@ -18,7 +18,7 @@ def first_challenge
     info.each {|attribute, value| 
       
       if attribute == :favorite_icecream_flavors
-        attribute.delete_if {|val| val == strawberry}
+        attribute.delete_if {|value| value == strawberry}
       end
     }
   }
